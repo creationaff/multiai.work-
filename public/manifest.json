@@ -1,0 +1,15 @@
+{
+  "name": "MultiAI",
+  "short_name": "MultiAI",
+  "description": "Compare ChatGPT, Claude, Gemini and Grok side by side in one AI workspace",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "categories": ["productivity", "utilities", "developer tools", "education"],
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" },
+    { "src": "/logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
