@@ -14,7 +14,7 @@ import {
   createEmptyProviders,
   providersHaveContent,
 } from '@/lib/chat-history-types';
-import { PanelLeft, Send, User } from 'lucide-react';
+import { Mail, PanelLeft, Send, User } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 import packageJson from '../../package.json';
 
@@ -485,6 +485,15 @@ export default function Home() {
             {planBadge.label}
           </button>
         )}
+
+        <a
+          href="mailto:contact@merlintheai.com?subject=MultiAI%20feedback&body=Hi%20Merlin%20team,%0A%0AFeedback%20for%20MultiAI:%0A"
+          title="Send feedback"
+          className="h-7 w-7 shrink-0 rounded-md border border-zinc-200 text-zinc-500 hover:text-zinc-800 dark:border-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-100 flex items-center justify-center transition-colors"
+          aria-label="Send feedback"
+        >
+          <Mail size={14} />
+        </a>
 
         {/* Account / sign-in button */}
         <button
